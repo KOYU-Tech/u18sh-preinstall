@@ -22,7 +22,11 @@ apt -y install php7.4
 apt -y install php7.4-bcmath php7.4-bz2 php7.4-intl php7.4-gd php7.4-mbstring php7.4-mysql php7.4-zip php7.4-dev
 apt -y install php7.4-fpm
 
-echo "Install NVM"
+echo ">>> Install NVM"
 curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.37.2/install.sh -o install_nvm.sh
+chmod +x install_nvm.sh
+./install_nvm.sh
 
+
+echo "=== DONE ==="
 
