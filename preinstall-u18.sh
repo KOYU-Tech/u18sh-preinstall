@@ -31,7 +31,7 @@ echo -n "... "
 apt -y install php7.4-fpm
 echo "+"
 
-echo -n "Install NVM & NPM ..."
+echo -n "Install NVM & NPM & NodeJs ..."
 curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.37.2/install.sh -o install_nvm.sh
 echo -n "..."
 chmod +x install_nvm.sh
