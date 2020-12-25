@@ -44,5 +44,6 @@ export NVM_DIR="$HOME/.nvm"
 nvm install v14
 echo "+"
 
+apt -qq -y autoremove
 echo "=== DONE ==="
 
