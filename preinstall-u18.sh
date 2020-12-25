@@ -43,6 +43,7 @@ export NVM_DIR="$HOME/.nvm"
 nvm install v14
 rm -f ./install_nvm.sh
 apt -qq -y install npm
+npm install pm2@latest -g
 echo "+"
 
 echo -n "Install Yarn ..."
