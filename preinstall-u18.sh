@@ -26,7 +26,7 @@ apt update
 echo -n "... "
 apt -y install php7.4 composer
 echo -n "... "
-apt -y install php7.4-bcmath php7.4-bz2 php7.4-intl php7.4-gd php7.4-mbstring php7.4-mysql php7.4-zip php7.4-dev
+apt -y install php7.4-bcmath php7.4-bz2 php7.4-intl php7.4-gd php7.4-mbstring php7.4-mysql php7.4-zip php7.4-dev php7.4-imagick php7.4-curl
 echo -n "... "
 apt -y install php7.4-fpm
 echo "+"
