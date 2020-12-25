@@ -1,6 +1,6 @@
 # u18sh-preinstall
 
-Preinstall webserver on Ubuntu 18
+Preinstall Webserver for clean VPS/VDS on Ubuntu 18
 
 - Nginx
 - NPM, NVM, Yarn
