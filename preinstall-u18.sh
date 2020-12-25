@@ -3,7 +3,10 @@
 echo -n "APT update & upgrade ... "
 apt update
 apt -qq -y upgrade
-apt -qq -y install curl
+echo "+"
+
+echo "Install Curl & Git ... "
+apt -qq -y install curl git
 echo "+"
 
 echo -n "Remove Apache2 ... "
@@ -12,10 +15,6 @@ echo "+"
 
 echo -n "Install Nginx ... "
 apt -qq -y install nginx
-echo "+"
-
-echo "Install Git ... "
-apt -qq -y install git
 echo "+"
 
 echo -n "Install PHP7.4 ..."
