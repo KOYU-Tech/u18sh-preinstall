@@ -44,6 +44,12 @@ nvm install v14
 apt -qq -y install npm
 echo "+"
 
+echo -n "Install Yarn ..."
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+apt -qq update
+apt -qq -y install yarn
+
 apt -qq -y autoremove
 echo "=== DONE ==="
 
