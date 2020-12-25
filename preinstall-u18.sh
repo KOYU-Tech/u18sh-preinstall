@@ -6,7 +6,9 @@ apt -qq -y upgrade
 echo "+"
 
 echo "Install Curl & Git & Etc ... "
-apt -qq -y install curl git zip unzip nano
+apt -qq -y install curl git zip unzip nano snapd
+snap install core
+snap refresh core
 echo "+"
 
 echo -n "Remove Apache2 ... "
@@ -51,6 +53,11 @@ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
 apt -qq update
 apt -qq -y install yarn
+
+echo -n "Install CertBot ... "
+snap install --classic certbot
+ln -s /snap/bin/certbot /usr/bin/certbot
+echo "+"
 
 apt -qq -y autoremove
 
