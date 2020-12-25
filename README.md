@@ -1,6 +1,6 @@
 # ws-preinstall-u18
 
-Preinstall Webserver for clean VPS/VDS on Ubuntu 18
+Bash Script for a webserver preinstallation on a clean VPS/VDS with Ubuntu 18
 
 - Nginx
 - NPM, NVM, Yarn
