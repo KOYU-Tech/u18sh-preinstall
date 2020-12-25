@@ -6,7 +6,7 @@ apt -qq -y upgrade
 echo "+"
 
 echo "Install Curl & Git & Etc ... "
-apt -qq -y install curl git zip unzip nano
+apt -qq -y install curl git zip unzip nano composer
 echo "+"
 
 echo -n "Remove Apache2 ... "
