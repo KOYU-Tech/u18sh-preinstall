@@ -2,7 +2,7 @@
 
 echo -n "APT update & upgrade ... "
 apt update
-apt -qq -y upgrade
+apt -y upgrade
 echo "+"
 
 echo "Install Curl & Git & Etc ... "
