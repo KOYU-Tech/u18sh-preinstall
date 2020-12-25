@@ -1,4 +1,4 @@
-# u18sh-preinstall
+# ws-preinstall-u18
 
 Preinstall Webserver for clean VPS/VDS on Ubuntu 18
 
@@ -9,7 +9,7 @@ Preinstall Webserver for clean VPS/VDS on Ubuntu 18
 - CertBot
 
 ```
-$ wget https://raw.githubusercontent.com/KOYU-Tech/u18sh-preinstall/main/preinstall-u18.sh
-$ sudo chmod +x ./preinstall-u18.sh
-$ sudo ./preinstall-u18.sh
+$ wget https://raw.githubusercontent.com/KOYU-Tech/ws-preinstall-u18/main/wsp-u18.sh
+$ sudo chmod +x ./wsp-u18.sh
+$ sudo ./wsp-u18.sh
 ```
