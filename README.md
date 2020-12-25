@@ -6,6 +6,7 @@ Preinstall Webserver for clean VPS/VDS on Ubuntu 18
 - NPM, NVM, Yarn
 - NodeJs v14
 - PHP 7.4 (+FPM)
+- CertBot
 
 ```
 $ wget https://raw.githubusercontent.com/KOYU-Tech/u18sh-preinstall/main/preinstall-u18.sh
