@@ -38,6 +38,8 @@ echo -n "..."
 chmod +x install_nvm.sh
 ./install_nvm.sh
 echo -n "..."
+source ~/.bash_profile
+source ~/.bashrc
 nvm install v14
 echo "+"
 
