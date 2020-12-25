@@ -1,32 +1,45 @@
 #!/bin/bash
 
-echo "=== Apt update & upgrade ==="
+echo -n "APT update & upgrade ... "
 apt update
-apt -y upgrade
-apy -y install curl
+apt -qq -y upgrade
+apt -qq -y install curl
+echo "+"
 
-echo ">>> Remove Apache2"
-apt -y remove apache2
+echo -n "Remove Apache2 ... "
+apt -qq -y remove apache2
+echo "+"
 
-echo ">>> Install Nginx"
-apt -y install nginx
+echo -n "Install Nginx ... "
+apt -qq -y install nginx
+echo "+"
 
-echo "Install Git"
-apt -y install git
+echo "Install Git ... "
+apt -qq -y install git
+echo "+"
 
-echo ">>> Install PHP7.4"
+echo -n "Install PHP7.4 ..."
 apt -y install software-properties-common
+echo -n "... "
 add-apt-repository -y ppa:ondrej/php
+echo -n "... "
 apt update
+echo -n "... "
 apt -y install php7.4
+echo -n "... "
 apt -y install php7.4-bcmath php7.4-bz2 php7.4-intl php7.4-gd php7.4-mbstring php7.4-mysql php7.4-zip php7.4-dev
+echo -n "... "
 apt -y install php7.4-fpm
+echo "+"
 
-echo ">>> Install NVM"
+echo -n "Install NVM ..."
 curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.37.2/install.sh -o install_nvm.sh
+echo -n "..."
 chmod +x install_nvm.sh
 ./install_nvm.sh
-
+echo -n "..."
+nvm install v14
+echo "+"
 
 echo "=== DONE ==="
 
