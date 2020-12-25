@@ -5,8 +5,8 @@ apt update
 apt -qq -y upgrade
 echo "+"
 
-echo "Install Curl & Git ... "
-apt -qq -y install curl git
+echo "Install Curl & Git & Etc ... "
+apt -qq -y install curl git zip unzip nano
 echo "+"
 
 echo -n "Remove Apache2 ... "
