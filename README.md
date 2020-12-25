@@ -3,8 +3,9 @@
 Preinstall webserver on Ubuntu 18
 
 - Nginx
+- NPM, NVM, Yarn
 - NodeJs v14
-- PHP 7.4
+- PHP 7.4 (+FPM)
 
 ```
 $ wget https://raw.githubusercontent.com/KOYU-Tech/u18sh-preinstall/main/preinstall-u18.sh
