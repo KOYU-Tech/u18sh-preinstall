@@ -52,5 +52,9 @@ apt -qq update
 apt -qq -y install yarn
 
 apt -qq -y autoremove
+
+#read -rp "Enter Git Url of a project: " GitUrl
+#echo "$GitUrl"
+
 echo "=== DONE ==="
 
