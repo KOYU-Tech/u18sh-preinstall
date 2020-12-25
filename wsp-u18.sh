@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#REM Use it: https://github.com/tdenniston/bish
+
 echo -n "APT update & upgrade ... "
 apt update
 apt -y upgrade
